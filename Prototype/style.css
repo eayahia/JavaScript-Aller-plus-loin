@@ -16,9 +16,9 @@ main {
     /* padding: 40px;
     padding-top: 20px; */
     border-top-right-radius: 60px;
-    border-end-end-radius:  60px; 
+    /* border-end-end-radius:  60px;  */
     border-end-start-radius: 60px;
-    border-top-left-radius:60px ;
+    /* border-top-left-radius:60px ; */
 
 }
 
@@ -73,7 +73,9 @@ align-items: center;
 display: none;
 /* background-color: rgb(62, 150, 222); */
 background-color: rgb(95, 152, 236);
-border-radius: 40px;
+border-top-left-radius: 40px;
+border-top-right-radius: 40px;
+border-end-start-radius: 40px;
 padding: 10px;
 text-align: center;
 margin-top: 50px;
