@@ -1,7 +1,7 @@
 let produits = [
-  { nom: "PC portable", prix: 900, image: "pc.png" },
-  { nom: "Clavier mécanique", prix: 45, image: "clavier.png" },
-  { nom: "Souris sans fil", prix: 25, image: "souris.png" }
+  { nom: "PC portable", prix: 900, image: "assets/téléchargement.jpg" },
+  { nom: "Clavier mécanique", prix: 45, image: "assets/téléchargement (1).jpg" },
+  { nom: "Souris sans fil", prix: 25, image: "assets/Souris-Gaming-Sans-Fil-Logitech-G502-X-lightspeed-1.jpg.webp" }
 ];
 
 let catalogue = document.getElementById("catalogue");
