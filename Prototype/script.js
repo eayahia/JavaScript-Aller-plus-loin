@@ -1,7 +1,10 @@
 let input = document.getElementById("ville");
 let bouton = document.getElementById("chercher");
 let resultat = document.getElementById("resultat");
+  let main = document.querySelector("main");
 bouton.addEventListener("click", () => {
+
+  main.style.paddingBottom="0px";
   let ville = input.value.trim();
   input.value ="";
   if (!ville) return alert("Veuillez entrer une ville !");
@@ -17,6 +20,7 @@ bouton.addEventListener("click", () => {
     .then(data => {
       let iconCode = data.weather[0].icon;
       let iconUrl = `https://openweathermap.org/img/wn/${iconCode}@2x.png`;
+
 
       resultat.innerHTML = `
         <h2>${data.name}, ${data.sys.country}</h2>
