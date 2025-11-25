@@ -25,10 +25,10 @@ bouton.addEventListener("click", () => {
       resultat.innerHTML = `
         <h2>${data.name}, ${data.sys.country}</h2>
         <img src="${iconUrl}" alt="${data.weather[0].description}" class="weather-icon">
-        <p><strong>Température :</strong> ${Math.round(data.main.temp)} °C</p>
-        <p><strong>Condition :</strong> ${data.weather[0].description}</p>
-        <p><strong>Humidité :</strong> ${data.main.humidity}%</p>
-        <p><strong>Vent :</strong> ${data.wind.speed} m/s</p>
+        <p class = "temp" ><strong>Température :</strong> ${Math.round(data.main.temp)} °C</p>
+        <p class = "condition"><strong>Condition :</strong> ${data.weather[0].description}</p>
+        <p class = "humidite"><strong>Humidité :</strong> ${data.main.humidity}%</p>
+        <p class = "vent"><strong>Vent :</strong> ${data.wind.speed} m/s</p>
       `;
     })
     .catch(err => {

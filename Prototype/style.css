@@ -13,12 +13,8 @@ main {
     max-width: 600px;
     background-color: rgb(65, 122, 207);
     margin: auto;
-    /* padding: 40px;
-    padding-top: 20px; */
     border-top-right-radius: 60px;
-    /* border-end-end-radius:  60px;  */
     border-end-start-radius: 60px;
-    /* border-top-left-radius:60px ; */
     padding-bottom: 20px;
 
 }
@@ -35,9 +31,7 @@ main {
 
 }
 h1 {
-    /* display: flex;
-margin: auto;
-justify-content: center; */
+
 text-align: center;
 font-size: 50px;
 margin-top: 20px;
@@ -56,7 +50,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     background-color: orange;
     font-size: medium;
     border: 1px solid orange;
-    /* justify-content: space-around; */
+   
 }
 .search-container{
 display: flex;
@@ -75,7 +69,6 @@ align-items: center;
 }
 #resultat {
 display: none;
-/* background-color: rgb(62, 150, 222); */
 background-color: rgb(100, 165, 239);
 border-top-left-radius: 40px;
 border-top-right-radius: 40px;
